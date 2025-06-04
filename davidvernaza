@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Erick David Vernaza</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Changed Google Fonts link to Crimson Pro, ensuring weights 300, 400, 700, 800 -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* Changed main font to Crimson Pro */
+            font-family: 'Crimson Pro', serif;
+            background-color: #edf2f7; /* Tailwind's gray-200 */
+            color: #4a5568; /* Tailwind's gray-700 */
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        /* Paragraphs and lists with light font */
+        p, li, .text-md {
+            font-size: 14px;
+            font-weight: 300; /* Light Font */
+        }
+        /* Title styles */
+        h1 { /* Main name */
+            font-size: 16px; 
+            text-transform: uppercase;
+            font-weight: 800; /* Font weight increased to 800 (ExtraBold) */
+            color: #2d3748; /* Darker gray for the main name (Tailwind's gray-800) */
+        }
+        /* Section titles like "Professional Experience" */
+        h2 {
+            font-size: 16px; /* Font size changed to 16px */
+            text-transform: uppercase;
+            font-weight: 700;      /* Heavier (Bold) */
+            color: #2d3748; /* Tailwind's gray-800 */
+        }
+        /* Subtitles like "Senior UX Designer" */
+        h3 {
+            font-size: 14px; /* Font size maintained at 14px */
+            text-transform: uppercase;
+            font-weight: 700;      /* Heavier (Bold) */
+            color: #2d3748; /* Tailwind's gray-800 */
+        }
+        /* Specific adjustment for the header subtitle */
+        header p.text-xl {
+             font-size: 16px;
+             font-weight: 400; /* Regular weight for subtitle */
+             color: #4a5568; /* Tailwind's gray-700 */
+        }
+
+        .contact-links a {
+            font-size: 14px;
+            font-weight: 400; /* Regular weight for links */
+        }
+
+        /* Tailwind classes that might need !important if not removed from HTML */
+        .text-gray-700 {
+            color: #4a5568 !important;
+        }
+        .text-gray-600 {
+            color: #718096 !important;
+            font-weight: 300;
+        }
+         .text-gray-900 { 
+            color: #2d3748 !important;
+        }
+        .border-gray-300 {
+            border-color: #d2d6dc;
+        }
+    </style>
+</head>
+<body class=""> 
+    <div class="container bg-white shadow-lg rounded-lg p-6 md:p-10">
+        <!-- Header -->
+        <header class="text-center mb-8 border-b pb-6 border-gray-300">
+            <h1 class="">Erick David Vernaza</h1>
+            <p class="mt-2 text-xl">UX/UI Designer | Design Strategist | Low-Code Developer</p>
+        </header>
+
+        <!-- Contact Information -->
+        <section class="mb-8 text-center">
+            <h2 class="sr-only">Contact</h2> 
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 contact-links">
+                <a href="mailto:davidvernaza7@gmail.com" class="text-blue-600 hover:text-blue-800 hover:underline">davidvernaza7@gmail.com</a>
+                <a href="https://behance.net/davidvrza" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">behance.net/davidvrza</a>
+                <a href="https://linkedin.com/in/davidvrza" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">linkedin.com/in/davidvrza</a>
+            </div>
+        </section>
+
+        <!-- Professional Summary -->
+        <section class="mb-8">
+            <h2 class="mb-3 border-b pb-2 border-gray-300">Professional Summary</h2>
+            <p class="leading-relaxed">
+                Experienced UX/UI Designer with over 10 years of experience in visual design and software development, and 5+ years specializing in strategic user experience design. My work is grounded in deep user research, usability testing, and the creation and maintenance of scalable design systems. I thrive in agile environments and cross-functional teams, consistently delivering solutions that align business goals with real user needs. I also bring strong low-code/no-code development skills (WordPress, Budibase) and a multimedia background that includes video editing and audiovisual production.
+            </p>
+        </section>
+
+        <!-- Key Skills -->
+        <section class="mb-8">
+            <h2 class="mb-4 border-b pb-2 border-gray-300">Key Skills</h2>
+            <ul class="list-disc list-inside grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
+                <li>Strategic Design & UX Planning</li>
+                <li>User Research & Interviews</li>
+                <li>Usability Testing & Validation</li>
+                <li>Design Systems (Creation & Maintenance)</li>
+                <li>Information Architecture</li>
+                <li>User Flows & Interface Design</li>
+                <li>HTML/CSS, WordPress, Budibase (Low Code/No Code)</li>
+                <li>Prototyping & Wireframing</li>
+                <li>Multimedia Production (Video Editing, Audio Design)</li>
+                <li>Agile & Lean UX Methodologies</li>
+            </ul>
+        </section>
+
+        <!-- Professional Experience -->
+        <section class="mb-8">
+            <h2 class="mb-4 border-b pb-2 border-gray-300">Professional Experience</h2>
+            <div class="mb-6">
+                <h3 class="mb-1">Senior UX Designer</h3>
+                <p class="text-md">MyCodedMind | 2021 - Present</p>
+                <ul class="list-disc list-inside mt-2 ml-4 space-y-1">
+                    <li>Led strategic UX research and usability testing initiatives across web and mobile platforms.</li>
+                    <li>Created and maintained design systems to ensure visual and functional consistency.</li>
+                    <li>Translated insights from user interviews into actionable product improvements.</li>
+                    <li>Collaborated with cross-functional teams in agile sprints to deliver iterative enhancements.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="mb-1">UX Designer</h3>
+                <p class="text-md">MyV System | 2018 - 2021</p>
+                <ul class="list-disc list-inside mt-2 ml-4 space-y-1">
+                    <li>Conducted user research and developed customer journey maps to inform product decisions.</li>
+                    <li>Designed and tested interfaces for e-commerce, social, and internal management tools.</li>
+                    <li>Supported the creation of reusable components and documentation for internal design systems.</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="mb-1">Web Designer & Developer</h3>
+                <p class="text-md">Ci-Studio Agency | 2014 - 2018</p>
+                <ul class="list-disc list-inside mt-2 ml-4 space-y-1">
+                    <li>Developed e-commerce websites using WordPress and implemented complete product lifecycles.</li>
+                    <li>Provided low-code solutions and supported content production including video and multimedia.</li>
+                    <li>Transformed business needs into intuitive digital experiences.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-8">
+            <h2 class="mb-4 border-b pb-2 border-gray-300">Education</h2>
+            <div class="mb-3">
+                <h3 class="mb-1">Economics</h3>
+                <p class="text-md">Universidad Técnica Particular de Loja</p>
+            </div>
+            <!-- UX Design Certifications section removed -->
+        </section>
+
+        <!-- Volunteer Work -->
+        <section>
+            <h2 class="mb-4 border-b pb-2 border-gray-300">Volunteer Work</h2>
+            <div class="mb-3">
+                <h3 class="mb-1">Music Teacher & Choir Director</h3>
+                <p class="text-md">Voz de Transformación | 2021 - 2022</p>
+            </div>
+            <div class="mb-3">
+                <h3 class="mb-1">Fundraising Coordinator</h3>
+                <p class="text-md">World Embassy of Activists for Peace | 2017 - 2019</p>
+            </div>
+            <div>
+                <h3 class="mb-1">Audiovisual Producer</h3>
+                <p class="text-md">Association of Future Youth | 2014 - 2017</p>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
