@@ -15,9 +15,11 @@
             color: #4a5568; /* Tailwind's gray-700 */
         }
         .container {
-            max-width: 900px !important; /* Max width changed to 900px */
-            margin: 30px auto;
-            padding: 20px;
+            width: 100%; /* Ensures it's responsive within its parent */
+            max-width: 900px; /* Max width set to 900px */
+            margin: 30px auto; /* Centers the block */
+            padding: 20px; /* Custom padding, Tailwind padding classes removed from div */
+            /* bg-white, shadow-lg, rounded-lg from Tailwind are applied directly on the div */
         }
         /* Paragraphs and lists with light font */
         p, li, .text-md {
@@ -58,11 +60,12 @@
         }
 
         /* Tailwind classes that might need !important if not removed from HTML */
+        /* These are less necessary now as colors are mostly inherited or directly set */
         .text-gray-700 {
-            color: #4a5568 !important;
+            color: #4a5568 !important; 
         }
         .text-gray-600 {
-            color: #718096 !important;
+            color: #718096 !important; 
             font-weight: 300;
         }
          .text-gray-900 { 
@@ -74,7 +77,8 @@
     </style>
 </head>
 <body class=""> 
-    <div class="container bg-white shadow-lg rounded-lg p-6 md:p-10">
+    <!-- Tailwind padding classes (p-6 md:p-10) removed from the container div -->
+    <div class="container bg-white shadow-lg rounded-lg">
         <!-- Header -->
         <header class="text-center mb-8 border-b pb-6 border-gray-300">
             <h1 class="">Erick David Vernaza</h1>
